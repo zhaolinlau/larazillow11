@@ -5,6 +5,6 @@ defineProps({
 </script>
 
 <template>
-	<div>Index<div>
+	<div>Index</div>
 	{{ message }}
 </template>
