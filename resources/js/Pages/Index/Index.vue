@@ -5,9 +5,15 @@ defineProps({
 })
 </script>
 
+<script>
+import MainLayout from '../Layouts/MainLayout.vue'
+
+export default {
+	layout: MainLayout
+}
+</script>
+
 <template>
-	<MainLayout>
 		<div>Index</div>
 		{{ message }}
-	</MainLayout>
 </template>
