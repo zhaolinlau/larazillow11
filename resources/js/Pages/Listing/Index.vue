@@ -18,5 +18,9 @@ defineProps({
 		<div>
 			<Link :href="`/listing/${listing.id}/edit`">Edit</Link>
 		</div>
+
+		<div>
+			<Link :href="`/listing/${listing.id}`" as="button" method="delete">Delete</Link>
+		</div>
 	</div>
 </template>
