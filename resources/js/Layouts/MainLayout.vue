@@ -18,16 +18,13 @@ const flashSuccess = computed(() => {
 </script>
 
 <template>
-	<Link href="/">Main Page</Link> <br>
-	<Link href="/hello">Show Page</Link>
+	<Link href="/listing">Listings</Link>&nbsp;
+	<Link href="/listing/create">New Listing</Link>
 	<!-- <div>The page with time {{ timer }}</div> -->
 	<div v-if="flashSuccess" class="success">
 		{{ flashSuccess }}
 	</div>
 
-	<div>
-		{{ y }}
-	</div>
 	<slot>Default</slot>
 </template>
 
